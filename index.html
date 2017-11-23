@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redcore Project</title>
+  <meta name="description" content="Redcore Project">
+  <meta name="keywords" content="redcore project, redcore linux, redcore, linux, linux distribution">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="shortcut icon" href="img/profile_img.png">
+  <!-- =======================================================
+    Theme Name: Mentor
+    Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Redcore <span>Project</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="news.html">News</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="http://bugs.redcorelinux.org/" target="_blank">Bugs</a></li>
+          <li><a href="https://wiki.redcorelinux.org/" target="_blank">Documentation</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="btn-trial"><a href="#footer">Download</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Navigation bar-->
+
+  <!--Banner-->
+  <div class="banner">
+    <div class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="banner-text text-center">
+            <div class="text-border">
+              <h2 class="text-dec">Welcome</h2>
+            </div>
+            <div class="intro-para text-center quote">
+              <p class="big-text">Redcore Project deals with the development of <br />Redcore Linux and several tools with free license.</p>
+            </div>
+            <a href="#about" class="mouse-hover">
+              <div class="mouse"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Banner-->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>About</h2>
+          <p>Redcore Linux is a distribution based on Gentoo Linux (stable + some unstable) and a continuation of, now defunct, Kogaion Linux. Kogaion Linux itself was a distribution based initially on Sabayon Linux, and later on Gentoo Linux and it was developed by RogentOS Development Group since 2011. <strong>Ghiunhan Mamut</strong> himself joined RogentOS Development Group in January 2014.</p>
+          <p>However, after more than 5 years of development, RogentOS Development Group decided to discontinue Kogaion Linux in November 2016, but Ghiunhan Mamut didn't want the project to die, and so Redcore Linux was born. </p>
+        </div>
+        <div class="about-info">
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>Why?</h4>
+                <p>Redcore Linux shares the same idea as his defunct ancestor, Kogaion Linux : to bring the power of Gentoo Linux to the masses. It aims to be a very quick way to install a pure Gentoo Linux system without spending hours or days compiling from source code, reading documentation etc.. To achieve this goal, it provides a repository with prebuilt binary packages which receives continuous updates (rolling release model). </p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>For who?</h4>
+                <p>Redcore Linux targets casual Laptop/Desktop users and, to some extent, Workstation power users. It will nicely fill any gaming, multimedia, office and internet browsing needs. Some development tools are also available. For that reason one cannot expect to find any server application in the repository (apache, lighttpd, mysql, nginx etc.). The repository will always remain small in size, focusing on quality and performance rather than quantity. </p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>How it's built?</h4>
+                <p>Redcore Linux is built from Gentoo Linux stage3. We then add a kernel, a bootloader and a few other things like dbus and initramfs generator (Dracut), we configure the init system (OpenRC) and so we have the core of Redcore Linux, a Gentoo Linux stage4 if you will. Deploying this stage4 will give you a very basic console only bootable Gentoo Linux system. We then squashfs this stage4 and use it as a base for everything. Vasile , our swiss army knife makes use of it to compile packages against, and create the ISO images. Easy peasy! </p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-code" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ about-->
+  <!--Tools-->
+  <section id="tools" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Developed Tools</h2>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="tools-table">
+            <!-- Plan  -->
+            <div class="tools-head">
+              <h4>Redcore Linux</h4>
+              <p>Redcore Linux is a distribution based on Gentoo Linux.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4">
+          <div class="tools-table">
+            <!-- Plan  -->
+            <div class="tools-head">
+              <h4>Sisyphus GUI & Sisyphus</h4>
+              <p>Sisyphus GUI is the package manager that can access the software center.</p>
+              <p>Sisyphus is the command-line tool for handling packages.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4">
+          <div class="tools-table">
+            <!-- Plan  -->
+            <div class="tools-head">
+              <h4>Vasile</h4>
+              <p>Vasile is an acronim : Versatile Advanced Script for ISO and Latest Enchantments. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Tools-->
+  <!--Contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Contact Us</h2>
+
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:venerix@redcorelinux.org" target="_blank">venerix [at] redcorelinux [dot] org</a></p>
+          <p><i class="fa fa-facebook-official" aria-hidden="true"></i> <a href="https://www.facebook.com/groups/redcorelinux/" target="_blank">Facebook Groups</a></p>
+          <p><i class="fa fa-google" aria-hidden="true"></i> <a href="https://groups.google.com/forum/#!forum/redcorelinux" target="_blank">Google Groups</a></p>
+          <p><i class="fa fa-comments" aria-hidden="true"></i> <a href="http://kiwiirc.com/client/irc.freenode.net/#redcorelinux" target="_blank">irc.freenode.net #redcorelinux</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Contact-->
+  <!--Footer-->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+
+      <h3>Start Your Download Redcore Linux</h3>
+
+      <p>For transferring of the image on the stick, you can use several applications, but we recommend UNetbootin for those who use Linux and Rufus for others</p>
+
+      <p>
+        <a href="http://mirror.math.princeton.edu/pub/redcorelinux/iso/Redcore.Linux.1710.R1.LXQT.amd64.iso">
+          <i class="fa fa-download "></i>&nbsp;&nbsp;Redcore Linux</a>
+        <a href="http://mirror.math.princeton.edu/pub/redcorelinux/iso/Redcore.Linux.1710.R1.LXQT.amd64.iso.md5sum">
+          <i class="fa fa-download "></i>&nbsp;&nbsp;md5sum File</a>
+        <a href="http://mirror.math.princeton.edu/pub/redcorelinux/iso/">
+          <i class="fa fa-download "></i>&nbsp;&nbsp;Open Repository</a>
+      </p>
+
+      <ul class="social-links">
+        <li><a href="https://gitlab.com/redcore" target="_blank"><i class="fa fa-gitlab" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/redcorelinux" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      </ul>
+      Copyleft (ɔ) 2016 - 2017 <a href="https://redcorelinux.org/">Redcore Project</a>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
