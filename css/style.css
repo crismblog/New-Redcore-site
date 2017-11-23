@@ -239,7 +239,6 @@ Tools Table
 ************************************/
 .tools-table {
     box-shadow: 0px 0px 1px 0px RGBA(0, 0, 0, 0.4);
-    position: relative;
 }
 .tools-table .tools-head {
     background: #fff;
@@ -267,6 +266,14 @@ Tools Table
 .tools-in {
     background: #fff;
     text-align: center;
+}
+.center {
+	margin: 0 auto;
+	justify-content: center;
+	display: -webkit-flex; /* Safari */
+-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+display: flex;
+flex-wrap: wrap;
 }
 /***********************************
 Contact Us
